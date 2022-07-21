@@ -1,0 +1,21 @@
+{
+  "name": "jsaqa_7-05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chrome": "npx cypress run --config-file cypress.config.js --browser chrome",
+    "chrome_headed": "npx cypress run --config-file cypress.config.js --browser chrome --headed",
+    "edge": "npx cypress run --config-file cypress.config.js --browser edge",
+    "edge_headed": "npx cypress run --config-file cypress.config.js --browser edge --headed",
+    "chromeMobile": "cypress run --browser chrome --config-file cypress.env.config.js --headed",
+    "edgeMobile": "cypress run --browser edge --config-file cypress.env.config.js --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.2.0"
+  }
+}
